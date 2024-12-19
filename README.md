@@ -1,6 +1,6 @@
 # Tyler, The Creator - Site Simples
 
-Este é um site simples desenvolvido com **HTML**, **CSS** e **JavaScript**, projetado para apresentar um pouco da carreira do cantor e produtor musical **Tyler, The Creator**.
+Este é um site simples desenvolvido com **HTML** e **CSS**, projetado para apresentar um pouco da carreira do cantor e produtor musical **Tyler, The Creator**.
 
 ## Tecnologias Utilizadas
 - **HTML**: Estrutura básica do site.
