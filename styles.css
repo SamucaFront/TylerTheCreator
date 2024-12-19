@@ -1,0 +1,128 @@
+/* Configuração global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Cor única para todo o fundo */
+    color: #000000;
+    text-align: center;
+}
+
+header {
+    background-color:  rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+/* Seções */
+section {
+    margin: 0; /* Remove espaçamento entre as seções */
+    padding: 20px;
+    background-color: transparent; /* Remove qualquer fundo branco */
+    box-shadow: none; /* Remove sombras */
+    border-radius: 0; /* Remove bordas arredondadas */
+}
+
+/* Títulos */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #000000;
+    text-shadow: 1px 1px 3px #222;
+}
+
+/* Botões */
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #333333;
+    transform: scale(1.1);
+}
+
+/* Imagens */
+img {
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%; /* Faz o footer ocupar toda a largura da tela */
+    box-sizing: border-box; /* Considera padding dentro da largura */
+    font-size: 14px; /* Ajuste opcional do tamanho */
+    display: flex; /* Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+
+p {
+    max-width: 600px; /* Define a largura máxima do parágrafo */
+    line-height: 1.6; /* Ajusta o espaçamento entre as linhas */
+    margin: 0 auto 20px; /* Centraliza o parágrafo e adiciona margem inferior */
+    text-align: justify; /* Justifica o texto para melhorar a estética */
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os ícones */
+}
+
+.social-media a {
+    font-size: 30px; /* Tamanho dos ícones */
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: red; /* Alterar a cor ao passar o mouse */
+}
+
+.social-media .youtube:hover {
+    color: #FF0000; /* Vermelho para o YouTube */
+}
+
+.social-media .instagram:hover {
+    color: #C13584; /* Rosa para o Instagram */
+}
+
+.social-media .spotify:hover {
+    color: #1DB954; /* Verde para o Spotify */
+}
+
