@@ -10,7 +10,7 @@ Este é um site simples desenvolvido com **HTML** e **CSS**, projetado para apre
 1. Clone este repositório para sua máquina local.
 2. Abra o arquivo `index.html` em seu navegador.
 
-## 🎶 Tyler The Creator Project
+## Tyler The Creator Project
 
 Um projeto inspirado no artista Tyler, The Creator.
 
